@@ -11,8 +11,8 @@ module.exports = {
             './pages/**/*.{js,jsx,ts,tsx}',
             './components/**/*.{js,jsx,ts,tsx}',
           ],
-          whitelist: ['pagination', 'active', 'disabled', 'xl:block'],
-          whitelistPatterns: [/^slick/, /^ril/, /^wp/, /^bg-/, /^w-/, /^p-/, /^xl:w-/],
+          whitelist: [],
+          whitelistPatterns: [],
           defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
         },
       ]
