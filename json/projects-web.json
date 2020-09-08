@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Rainbowdragoneyes",
+    "type": "Next.js & Wordpress",
+    "year": "2020",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "",
+    "images": [
+      "images/projects/web/megaphone-1.png"
+    ]
+  },
+  {
+    "name": "RE/MAX Megaphone",
+    "type": "Vue & Laravel",
+    "year": "2019/2020",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "",
+    "images": [
+      "images/projects/web/megaphone-1.png",
+      "images/projects/web/megaphone-2.png",
+      "images/projects/web/megaphone-3.png",
+      "images/projects/web/megaphone-4.png",
+      "images/projects/web/megaphone-5.png"
+    ]
+  },
+  {
+    "name": "WOW Service Customizer",
+    "type": "React",
+    "year": "2019",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://sales.wowway.com",
+    "images": ["images/projects/web/wow.png"]
+  },
+  {
+    "name": "Hackboard",
+    "type": "Vue/Nuxt",
+    "year": "2019",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://montoulieu.github.io/link-ent/",
+    "images": ["images/projects/web/hackboard.png"],
+    "repoUrl": "https://github.com/montoulieu/link-ent"
+  },
+  {
+    "name": "Link Ent",
+    "type": "Vue",
+    "year": "2019",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://montoulieu.github.io/link-ent/",
+    "images": ["images/projects/web/link-ent.png"],
+    "repoUrl": "https://github.com/montoulieu/link-ent"
+  },
+  {
+    "name": "Ableton Live Downloader",
+    "type": "Vue",
+    "year": "2019",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://ableton-live.netlify.com",
+    "images": ["images/projects/web/ableton-live-downloader.png"],
+    "repoUrl": "https://github.com/montoulieu/ableton-live-downloader"
+  },
+  {
+    "name": "PCI Infocus Landing Page",
+    "type": "Wordpress & Sage",
+    "year": "2018",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://sales.wowway.com",
+    "images": ["images/projects/web/pciinfocus.jpg"]
+  },
+  {
+    "name": "Swagtron Store",
+    "type": "Wordpress & Sage",
+    "year": "2018",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://sales.wowway.com",
+    "images": ["images/projects/web/swagtron.png"]
+  },
+  {
+    "name": "White Groves Barber",
+    "type": "Wordpress & Sage",
+    "year": "2018",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://sales.wowway.com",
+    "images": ["images/projects/web/white-groves.png"]
+  },
+  {
+    "name": "Tukit Tour Co.",
+    "type": "Wordpress & Sage",
+    "year": "2017",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://tukittourco.com",
+    "images": ["images/projects/web/tukit.png"]
+  },
+  {
+    "name": "Carve Digital",
+    "type": "Wordpress & Sage",
+    "year": "2016",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "url": "https://carvedigital.net",
+    "images": ["images/projects/web/carve-digital.png"]
+  }
+]

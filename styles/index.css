@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/jit2gic.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sys-tt, sans-serif;
+  @apply bg-black;
+}
+
+.blue-filter {
+  filter: saturate(0) sepia(1) hue-rotate(170deg) saturate(2) brightness(1.4)
+}
+
+.about {
+  background-image: url('/images/pieter-montoulieu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@screen md {
+  .about {
+    background-position-y: 20%;
+  }
+}
+
+@screen xl {
+  .about {
+    background-position-y: 30%;
+  }
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+.columns-2 .fp-tableCell,
+.columns-2 .grid-container {
+  @apply grid;
+}
+
+@media (min-width: 540px) {
+  .columns-2 .fp-tableCell,
+  .columns-2 .grid-container {
+    @apply grid grid-cols-2 col-gap-3;
+  }
+}
+
+.project-preview,
+.bezel {
+  border-radius: 1.5rem;
+}
+
+#fp-nav ul li a span {
+  background-color: #68d391;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #68d391;
+  font-family: sys-tt, sans-serif;
+}
+
+.fp-slidesNav.fp-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+@responsive {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+}

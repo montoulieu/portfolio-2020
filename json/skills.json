@@ -1,0 +1,81 @@
+[
+  {
+    "name": "React",
+    "subskills": [
+      "Next.js",
+      "Gatsby",
+      "Redux",
+      "Styled Components"
+    ],
+    "class": "text-blue-400"
+  },
+  {
+    "name": "Vue",
+    "subskills": [
+      "Nuxt.js",
+      "Vuex",
+      "Compostion API"
+    ],
+    "class": "text-green-400"
+  },
+  {
+    "name": "Swift",
+    "subskills": [
+      "SwiftUI",
+      "ARKit",
+      "CoreML"
+    ],
+    "class": "text-orange-400"
+  },
+  {
+    "name": "PHP",
+    "subskills": [
+      "Laravel",
+      "Wordpress",
+      "Magento"
+    ],
+    "class": "text-purple-400"
+  },
+  {
+    "name": "JS",
+    "subskills": [
+      "TypeScript",
+      "Express",
+      "Node/NPM",
+      "Webpack",
+      "jQuery",
+      "Google Apps"
+    ],
+    "class": "text-yellow-400"
+  },
+  {
+    "name": "UI",
+    "subskills": [
+      "Storybook",
+      "Tailwind",
+      "Bootstrap",
+      "Bulma",
+      "Foundation"
+    ],
+    "class": "text-teal-400"
+  },
+  {
+    "name": "Games",
+    "subskills": [
+      "Unity 3D",
+      "PhotonJS",
+      "Source"
+    ],
+    "class": "text-red-400"
+  },
+  {
+    "name": "VR/AR",
+    "subskills": [
+      "OpenVR",
+      "VRTK",
+      "Vuforia",
+      "Spark AR"
+    ],
+    "class": "text-indigo-400"
+  }
+]
