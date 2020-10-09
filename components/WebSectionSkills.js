@@ -1,5 +1,6 @@
 import React from 'react'
-import Moment from 'react-moment';
+import formatDistanceStrict from 'date-fns/formatDistanceStrict';
+
 
 import skills from '../json/skills.json'
 
@@ -12,7 +13,7 @@ function WebSectionSkills() {
         <div className="lg:w-4/5 lg:mx-auto text-blue-200">
           <h1 className="text-4xl md:text-6xl font-semibold text-blue-400">Skills</h1>
           <p className="text-md md:text-2xl font-light mb-4">From the humble beginnings of hacking Gameboy games and websites in the late 90s, to building large-scale React and Vue apps and VR experiences for the masses.</p>
-          <p className="text-md md:text-2xl font-light mb-4">I've spent over <Moment fromNow ago>{devStartDate}</Moment> learning and building with the latest in web and game technologies.<br className="none md:block"/> In that time, my goal has always been to push myself to create and know more than I did the day before.</p>
+          <p className="text-md md:text-2xl font-light mb-4">I've spent over {formatDistanceStrict(new Date(devStartDate), new Date())} learning and building with the latest in web and game technologies.<br className="none md:block"/> In that time, my goal has always been to push myself to create and know more than I did the day before.</p>
         </div>
       </div>
       <div className="flex justify-start md:justify-center flex-col">
