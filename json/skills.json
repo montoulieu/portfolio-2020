@@ -13,8 +13,8 @@
     "name": "Vue",
     "subskills": [
       "Nuxt.js",
-      "Vuex",
-      "Compostion API"
+      "Compostion API",
+      "Vuex"
     ],
     "class": "text-green-400"
   },

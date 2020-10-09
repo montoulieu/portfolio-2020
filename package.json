@@ -9,11 +9,9 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
     "@fullpage/react-fullpage": "^0.1.17",
-    "autoprefixer": "^9.8.6",
+    "date-fns": "^2.16.1",
     "framer-motion": "^2.6.6",
-    "moment": "^2.27.0",
     "next": "9.5.3",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.3",
@@ -21,11 +19,10 @@
     "react-dom": "16.13.1",
     "react-github-btn": "^1.2.0",
     "react-image-lightbox": "^5.1.1",
-    "react-moment": "^0.9.7",
-    "react-slick": "^0.27.10",
     "react-slideshow-image": "^3.2.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.8.2"
   }

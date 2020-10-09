@@ -1,14 +1,18 @@
 import React from 'react'
+import Moment from 'react-moment';
+
 import skills from '../json/skills.json'
 
 function WebSectionSkills() {
+  const devStartDate = '01/01/1999';
+
   return (
-    <div className="columns-2 custom-section bg-blue-900 px-5">
+    <div className="columns-2 custom-section bg-blue-900 px-5 text-shadow">
       <div className="flex justify-center flex-col">
         <div className="lg:w-4/5 lg:mx-auto text-blue-200">
           <h1 className="text-4xl md:text-6xl font-semibold text-blue-400">Skills</h1>
-          <p className="text-md md:text-3xl font-light mb-4">I've spent over half my life creating with the latest in web and game technologies.</p>
-          <p className="text-md md:text-3xl font-light">In that time, my daily goal has always been to create and know more than I did the day before.</p>
+          <p className="text-md md:text-2xl font-light mb-4">From the humble beginnings of hacking Gameboy games and websites in the late 90s, to building large-scale React and Vue apps and VR experiences for the masses.</p>
+          <p className="text-md md:text-2xl font-light mb-4">I've spent over <Moment fromNow ago>{devStartDate}</Moment> learning and building with the latest in web and game technologies.<br className="none md:block"/> In that time, my goal has always been to push myself to create and know more than I did the day before.</p>
         </div>
       </div>
       <div className="flex justify-start md:justify-center flex-col">

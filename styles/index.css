@@ -17,6 +17,7 @@ body {
   background-image: url('/images/pieter-montoulieu.jpg');
   background-size: cover;
   background-position: center;
+  @apply transition-all duration-500
 }
 
 @screen md {
