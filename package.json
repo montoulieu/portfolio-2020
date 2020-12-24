@@ -9,21 +9,22 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
-    "@fullpage/react-fullpage": "^0.1.17",
+    "@fullpage/react-fullpage": "^0.1.18",
+    "autoprefixer": "^10.1.0",
     "date-fns": "^2.16.1",
-    "framer-motion": "^2.6.6",
-    "next": "9.5.3",
+    "framer-motion": "^2.9.3",
+    "next": "^10.0.1",
+    "postcss": "^8.2.1",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-github-btn": "^1.2.0",
     "react-image-lightbox": "^5.1.1",
-    "react-slideshow-image": "^3.2.0"
+    "react-slideshow-image": "^3.3.0",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.8.2"
+    "postcss-preset-env": "^6.7.0"
   }
 }

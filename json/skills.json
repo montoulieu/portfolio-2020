@@ -7,7 +7,7 @@
       "Redux",
       "Styled Components"
     ],
-    "class": "text-blue-400"
+    "class": "blue-300"
   },
   {
     "name": "Vue",
@@ -16,7 +16,7 @@
       "Compostion API",
       "Vuex"
     ],
-    "class": "text-green-400"
+    "class": "green-300"
   },
   {
     "name": "Swift",
@@ -25,7 +25,7 @@
       "ARKit",
       "CoreML"
     ],
-    "class": "text-orange-400"
+    "class": "orange-300"
   },
   {
     "name": "PHP",
@@ -34,7 +34,7 @@
       "Wordpress",
       "Magento"
     ],
-    "class": "text-purple-400"
+    "class": "purple-300"
   },
   {
     "name": "JS",
@@ -46,7 +46,7 @@
       "jQuery",
       "Google Apps"
     ],
-    "class": "text-yellow-400"
+    "class": "yellow-300"
   },
   {
     "name": "UI",
@@ -57,7 +57,7 @@
       "Bulma",
       "Foundation"
     ],
-    "class": "text-teal-400"
+    "class": "teal-300"
   },
   {
     "name": "Games",
@@ -66,7 +66,7 @@
       "PhotonJS",
       "Source"
     ],
-    "class": "text-red-400"
+    "class": "red-300"
   },
   {
     "name": "VR/AR",
@@ -76,6 +76,6 @@
       "Vuforia",
       "Spark AR"
     ],
-    "class": "text-indigo-400"
+    "class": "indigo-300"
   }
 ]
