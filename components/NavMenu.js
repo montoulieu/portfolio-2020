@@ -26,7 +26,7 @@ function NavMenu() {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 mx-auto text-center flex">
-      <ul class="border-2 bg-teal-200 bg-opacity-20 border-teal-500 border-b-0 mx-auto py-3 md:rounded-t-full shadow-lg md:px-10 w-full md:w-auto md:text-2xl ">
+      <ul class="border-t-2 bg-teal-200 bg-opacity-20 border-teal-500 mx-auto py-3 md:rounded-t-full shadow-lg md:px-10 w-full md:w-auto md:text-2xl ">
         {navMenu.map((item) => (
           <li className="font-bold italic text-teal-100 px-1 md:px-5 inline">
             <Link href={item.link}>
