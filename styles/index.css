@@ -10,11 +10,11 @@ body {
 }
 
 .blue-filter {
-  filter: saturate(0) sepia(1) hue-rotate(170deg) saturate(2) brightness(1.4)
+  filter: saturate(0) sepia(1) hue-rotate(170deg) saturate(2) brightness(1.4);
 }
 
 .about {
-  background-image: url('/images/pieter-montoulieu.jpg');
+  background-image: url("/images/pieter-montoulieu.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
@@ -46,7 +46,7 @@ body,
   @apply grid;
 }
 
-@media (min-width: 540px) {
+@screen md {
   .columns-2 .fp-tableCell,
   .columns-2 .grid-container {
     @apply grid grid-cols-2;
@@ -83,22 +83,21 @@ body,
 
 @responsive {
   .text-shadow {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .text-shadow-md {
-    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
   }
 
   .text-shadow-lg {
-    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
   }
 
   .text-shadow-none {
     text-shadow: none;
   }
 }
-
 
 .synthwave {
   z-index: -10;
@@ -110,32 +109,33 @@ body,
   .tron-floor {
     animation: 60s grid-rotate infinite linear;
     opacity: 0.3;
-    transform: rotateX(55deg) rotate3d(0,0,1,45deg);
+    transform: rotateX(55deg) rotate3d(0, 0, 1, 45deg);
     width: 1028px;
     height: 1028px;
     background-size: 64px 64px;
-    background-image: linear-gradient(to right, magenta 4px, transparent 4px), linear-gradient(to bottom, magenta 4px, transparent 4px);
+    background-image: linear-gradient(to right, magenta 4px, transparent 4px),
+      linear-gradient(to bottom, magenta 4px, transparent 4px);
     @apply absolute inset-0 m-auto;
   }
 }
 
 @keyframes grid-rotate {
   0% {
-    transform: scale(2) rotateX(55deg) rotate3d(0,0,1,45deg);
+    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 45deg);
   }
 
   50% {
-    transform: scale(2) rotateX(75deg) rotate3d(0,0,1,225deg);
+    transform: scale(2) rotateX(75deg) rotate3d(0, 0, 1, 225deg);
   }
 
   100% {
-    transform: scale(2) rotateX(55deg) rotate3d(0,0,1,405deg);
+    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 405deg);
   }
 }
 
 @keyframes about-bg-sway {
   from {
-    background-color: aqua;
+    background-color: forest;
   }
 
   to {

@@ -20,7 +20,7 @@ function WebSectionProjectSlider(props) {
         {portfolio.map((project) =>
           <div className="slide" key={project.name}>
             {/* <div className="bg-overlay bg-gray-900 absolute inset-0 z-20 w-full h-full" style={{backgroundImage: `url(${project.images[0]})` }}></div> */}
-            <div className="slide-wrapper columns-2 mx-auto">
+            <div className="slide-wrapper columns-2 mx-auto h-full sm:h-auto">
               <div className="grid-container">
                 <div class="lg:w-4/5 lg:mx-auto">
                   <ProjectPreview>
