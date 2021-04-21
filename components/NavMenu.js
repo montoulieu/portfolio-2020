@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-export default function NavMenu({ resumeFile }) {
+export default function NavMenu() {
   const router = useRouter();
 
   const navMenu = [
@@ -19,7 +19,7 @@ export default function NavMenu({ resumeFile }) {
     },
     {
       label: 'Resume',
-      link: resumeFile,
+      link: 'https://api.montoulieu.dev/portfolio/wp-content/uploads/sites/5/2021/04/Pieter-Montoulieu-Resume.pdf',
       target: '__blank',
     },
   ];
