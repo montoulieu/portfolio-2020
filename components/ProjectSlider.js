@@ -1,8 +1,5 @@
-import React, { Component } from 'react'
-// import GitHubButton from 'react-github-btn'
 import { Fade } from 'react-slideshow-image';
 import ProjectPreview from './ProjectPreview';
-import projectsWeb from '../json/projects-web.json'
 
 function ProjectSlider(props) {
   const { portfolio } = props;

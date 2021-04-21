@@ -71,7 +71,7 @@ body,
 }
 
 .container .fp-controlArrow {
-  top: 60%;
+  top: 70%;
   bottom: 0;
   margin: auto;
 }
@@ -90,12 +90,14 @@ body,
   justify-content: center;
 }
 
-.fp-controlArrow {
+.container .fp-controlArrow {
   &.fp-prev {
     border-color: transparent rgba(94, 234, 212) transparent transparent !important;
+    left: 25%;
   }
   &.fp-next {
     border-color: transparent transparent transparent rgba(94, 234, 212) !important;
+    right: 25%;
   }
 }
 

@@ -23,8 +23,8 @@ export default function SkillsProjects(props) {
         // fullpage options
         navigation
         navigationTooltips={['Web', 'VR', 'Games']}
-        showActiveTooltip
-        slidesNavigation
+        // showActiveTooltip
+        // slidesNavigation
         anchors={['web', 'vr', 'games']}
         sectionSelector={SECTION_SEL}
         licenseKey={process.env.FULLPAGE_LICENSE_KEY}

@@ -11,7 +11,7 @@ function WebSectionSkills() {
         <div className="lg:w-4/5 lg:mx-auto text-blue-200">
           <h1 className="text-4xl md:text-6xl font-semibold text-teal-300 mb-4">Skills</h1>
 
-          <div className="text-md md:text-2xl lg:text-3xl font-light tracking-wide sm:mb-6 pr-3 leading-5 sm:leading-normal">
+          <div className="text-md md:text-2xl xl:text-3xl font-light tracking-wide sm:mb-6 pr-3 leading-5 sm:leading-normal">
             <p className="mb-4">From hacking Gameboy ROMs and web sites in the late 90s, to building VR experiences and enterprise apps for the modern web.</p>
             <p className="mb-4">I've spent {formatDistanceStrict(new Date(devStartDate), new Date())} using the latest in web and game technologies, which has always driven me to know and create more than I did yesterday.</p>
           </div>

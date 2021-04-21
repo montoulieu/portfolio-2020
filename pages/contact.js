@@ -52,8 +52,8 @@ export default function Home() {
       <div className="mx-auto">
         <div className="relative ">
           <div className="phone w-64 border-4 border-gray-500 rounded-3xl bg-black p-3 relative z-10">
-            <div className="bg-gray-800 p-3 rounded-3xl">
-              <h1 className="text-lime-400 font-bold text-4xl mb-4">Contact</h1>
+            <div className="bg-gray-900 p-3 rounded-3xl">
+              <h1 className="text-teal-400 font-bold text-4xl tracking-wide mb-4">Contact</h1>
               {contactLinks && (
                 <ul className="grid grid-cols-2 grid-row-3 gap-2 rounded-3xl">
                   {contactLinks.map((link) => (
@@ -86,7 +86,7 @@ export default function Home() {
           </svg>
 
           <svg className="contact-hand" width="1338" height="1302" viewBox="0 0 1338 1302" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M281.451 593.309L279.363 595.262L281.213 597.442L1034.21 1484.44L1035.35 1485.78L1037.08 1485.44L1443.58 1405.94L1448.98 1404.89L1445.16 1400.92L487.162 404.92L485.111 402.788L482.951 404.809L281.451 593.309Z" fill="#fbbf24" stroke="black" strokeWidth="6"/>
+            <path d="M281.451 593.309L279.363 595.262L281.213 597.442L1034.21 1484.44L1035.35 1485.78L1037.08 1485.44L1443.58 1405.94L1448.98 1404.89L1445.16 1400.92L487.162 404.92L485.111 402.788L482.951 404.809L281.451 593.309Z" fill="#34d399" stroke="black" strokeWidth="6"/>
             <rect x="279.454" y="648.859" width="372.866" height="349.59" rx="113" transform="rotate(-133.658 279.454 648.859)" fill="#e879f9" stroke="black" strokeWidth="6"/>
             <mask id="path-3-outside-1" maskUnits="userSpaceOnUse" x="396.006" y="73.7686" width="131" height="310" fill="black">
               <rect fill="white" x="396.006" y="73.7686" width="131" height="310"/>
