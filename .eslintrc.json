@@ -28,5 +28,13 @@
       "version": "detect"
     }
   },
-  "plugins": []
+  "plugins": [],
+  "rules": {
+    "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
+    "react/jsx-filename-extension": [0],
+    "react/prop-types": [0],
+    "react/jsx-props-no-spreading": [0],
+    "react/react-in-jsx-scope": [0],
+    "max-len": "off"
+  }
 }
