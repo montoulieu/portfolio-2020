@@ -30,7 +30,7 @@ export default function Home() {
     {
       label: 'Linkedin',
       icon: Linkedin,
-      url: 'https://linkedin.com/montoulieu',
+      url: 'https://www.linkedin.com/in/pieter-montoulieu/',
       color: 'fuchsia',
     },
     {
