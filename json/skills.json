@@ -3,9 +3,7 @@
     "name": "React",
     "subskills": [
       "Next.js",
-      "Gatsby",
-      "Redux",
-      "Styled Components"
+      "Gatsby"
     ],
     "class": "blue-300"
   },
@@ -13,19 +11,9 @@
     "name": "Vue",
     "subskills": [
       "Nuxt.js",
-      "Compostion API",
-      "Vuex"
+      "Compostion API"
     ],
     "class": "green-300"
-  },
-  {
-    "name": "Swift",
-    "subskills": [
-      "SwiftUI",
-      "ARKit",
-      "CoreML"
-    ],
-    "class": "orange-300"
   },
   {
     "name": "PHP",
@@ -40,22 +28,16 @@
     "name": "JS",
     "subskills": [
       "TypeScript",
-      "Express",
       "Node/NPM",
-      "Webpack",
-      "jQuery",
-      "Google Apps"
+      "Webpack"
     ],
     "class": "yellow-300"
   },
   {
     "name": "UI",
     "subskills": [
-      "Storybook",
       "Tailwind",
-      "Bootstrap",
-      "Bulma",
-      "Foundation"
+      "Bootstrap"
     ],
     "class": "teal-300"
   },
@@ -63,18 +45,15 @@
     "name": "Games",
     "subskills": [
       "Unity 3D",
-      "PhotonJS",
-      "Source"
+      "Blender"
     ],
     "class": "red-300"
   },
   {
     "name": "VR/AR",
     "subskills": [
-      "OpenVR",
-      "VRTK",
-      "Vuforia",
-      "Spark AR"
+      "SteamVR",
+      "ARKit"
     ],
     "class": "indigo-300"
   }
