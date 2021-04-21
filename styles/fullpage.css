@@ -1,0 +1,44 @@
+#fp-nav {
+  ul li {
+    a span {
+      background-color: #68d391;
+    }
+    .fp-tooltip {
+      color: #68d391;
+      font-family: sys-tt, sans-serif;
+    }
+  }
+}
+
+#fp-nav .fp-slidesNav.fp-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.container .fp-controlArrow {
+  top: 70%;
+  bottom: 0;
+  margin: auto;
+
+  &.fp-prev {
+    border-color: transparent rgba(94, 234, 212) transparent transparent !important;
+    left: 25%;
+  }
+
+  &.fp-next {
+    border-color: transparent transparent transparent rgba(94, 234, 212) !important;
+    right: 25%;
+  }
+}
+
+.columns-2 .fp-tableCell,
+.columns-2 .grid-container {
+  @apply sm:grid;
+}
+
+@screen md {
+  .columns-2 .fp-tableCell,
+  .columns-2 .grid-container {
+    @apply grid grid-cols-2;
+  }
+}
