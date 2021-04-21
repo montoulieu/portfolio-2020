@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion';
 import NavMenu from '../components/NavMenu';
-import { getResumeFile } from '../lib/api';
 
 import '../styles/index.css';
 import 'react-slideshow-image/dist/styles.css';
 
-function MyApp({
+export default function MyApp({
   Component, pageProps, router, resumeFile,
 }) {
   return (
@@ -30,10 +29,3 @@ function MyApp({
     </div>
   );
 }
-
-MyApp.getInitialProps = async () => {
-  const data = await getResumeFile();
-  return { resumeFile: data };
-};
-
-export default MyApp;
