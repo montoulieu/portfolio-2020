@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-export default function NavMenu() {
+export default function NavMenu({ resumeFile }) {
   const router = useRouter();
 
   const navMenu = [
@@ -18,8 +18,8 @@ export default function NavMenu() {
       link: '/contact',
     },
     {
-      label: 'Blog',
-      link: 'https://blog.montoulieu.dev',
+      label: 'Resume',
+      link: resumeFile,
       target: '__blank',
     },
   ];

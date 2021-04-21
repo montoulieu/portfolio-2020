@@ -1,12 +1,15 @@
-import NavMenu from '../components/NavMenu'
 import { motion } from 'framer-motion';
+import NavMenu from '../components/NavMenu';
+import { getResumeFile } from '../lib/api';
 
-import '../styles/index.css'
-import 'react-slideshow-image/dist/styles.css'
+import '../styles/index.css';
+import 'react-slideshow-image/dist/styles.css';
 
-function MyApp({ Component, pageProps, router }) {
+function MyApp({
+  Component, pageProps, router, resumeFile,
+}) {
   return (
-    <div className={`h-full`}>
+    <div className="h-full">
       <motion.div
         key={router.route}
         initial="pageInitial"
@@ -23,9 +26,14 @@ function MyApp({ Component, pageProps, router }) {
       >
         <Component {...pageProps} />
       </motion.div>
-      <NavMenu />
+      <NavMenu resumeFile={resumeFile} />
     </div>
-  )
+  );
 }
 
-export default MyApp
+MyApp.getInitialProps = async () => {
+  const data = await getResumeFile();
+  return { resumeFile: data };
+};
+
+export default MyApp;

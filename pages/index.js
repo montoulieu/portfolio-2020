@@ -2,7 +2,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import HomeIntro from '../components/HomeIntro';
 import HomeSectionSkills from '../components/HomeSectionSkills';
 
-export default function Home(props) {
+export default function Home() {
   const SEL = 'custom-section';
   const SECTION_SEL = `.${SEL}`;
 
