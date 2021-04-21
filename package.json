@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.18",
+    "@panelbear/panelbear-js": "^1.2.0",
     "autoprefixer": "^10.1.0",
     "date-fns": "^2.16.1",
     "framer-motion": "^2.9.3",
