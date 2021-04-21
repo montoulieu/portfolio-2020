@@ -3,7 +3,7 @@ const colors = require('./node_modules/tailwindcss/colors');
 module.exports = {
   purge: {
     options:{
-      safelist: [/^bg-/, /^text-/]
+      safelist: [/^hover:bg-/,/^bg-/, /^text-/]
     },
     content: [
     './pages/**/*.{js,jsx,ts,tsx}',
