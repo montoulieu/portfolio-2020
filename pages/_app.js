@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { DefaultSeo } from 'next-seo';
 import NavMenu from '../components/NavMenu';
+import usePanelBear from '../hooks/usePanelbear';
 
 import '../styles/index.css';
 import 'react-slideshow-image/dist/styles.css';
@@ -8,6 +9,8 @@ import 'react-slideshow-image/dist/styles.css';
 export default function MyApp({
   Component, pageProps, router, resumeFile,
 }) {
+  usePanelBear('ATv4xJM6hl0', {});
+
   return (
     <div className="h-full">
       <DefaultSeo
