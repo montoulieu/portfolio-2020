@@ -1,0 +1,9 @@
+.project-preview,
+.bezel {
+  border-radius: 1.5rem;
+
+  .react-slideshow-container {
+    max-width: 90vw;
+    @apply mx-auto;
+  }
+}

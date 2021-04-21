@@ -1,46 +1,13 @@
 @import url("https://use.typekit.net/jit2gic.css");
+@import "./pages/projects.css";
 @import "./pages/contact.css";
+@import "./backgrounds.css";
+@import "./fullpage.css";
+@import "./util.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  font-family: sys-tt, sans-serif;
-  @apply bg-gray-900;
-}
-
-.blue-filter {
-  filter: saturate(0) sepia(1) hue-rotate(170deg) saturate(2) brightness(1.4);
-}
-
-.home-intro {
-  background-image: url("/images/pieter-montoulieu.jpg");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: darken;
-  background-color: aqua;
-  animation: about-bg-sway 15s infinite alternate;
-  @apply transition-all duration-500;
-}
-
-.nav-menu {
-  @apply border-teal-500 border-t-2 border-r-0 border-l-0 sm:border-r-2 sm:border-l-2;
-  @apply bg-teal-700 bg-opacity-80 sm:rounded-t-full shadow-lg md:text-2xl;
-  @apply mx-auto py-3 md:px-10 w-full md:w-auto;
-}
-
-@screen md {
-  .about {
-    background-position-y: 20%;
-  }
-}
-
-@screen xl {
-  .about {
-    background-position-y: 30%;
-  }
-}
 
 html,
 body,
@@ -48,139 +15,13 @@ body,
   height: 100%;
 }
 
-.columns-2 .fp-tableCell,
-.columns-2 .grid-container {
-  @apply sm:grid;
-}
-
-@screen md {
-  .columns-2 .fp-tableCell,
-  .columns-2 .grid-container {
-    @apply grid grid-cols-2;
-  }
-}
-
-.project-preview,
-.bezel {
-  border-radius: 1.5rem;
-
-  .react-slideshow-container {
-    max-width: 90vw;
-    @apply mx-auto;
-  }
-}
-
-.container .fp-controlArrow {
-  top: 70%;
-  bottom: 0;
-  margin: auto;
-}
-
-#fp-nav ul li a span {
-  background-color: #68d391;
-}
-
-#fp-nav ul li .fp-tooltip {
-  color: #68d391;
+body {
   font-family: sys-tt, sans-serif;
+  @apply bg-gray-900;
 }
 
-.fp-slidesNav.fp-bottom {
-  display: flex;
-  justify-content: center;
-}
-
-.container .fp-controlArrow {
-  &.fp-prev {
-    border-color: transparent rgba(94, 234, 212) transparent transparent !important;
-    left: 25%;
-  }
-  &.fp-next {
-    border-color: transparent transparent transparent rgba(94, 234, 212) !important;
-    right: 25%;
-  }
-}
-
-@responsive {
-  .text-shadow {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .text-shadow-md {
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
-  }
-
-  .text-shadow-lg {
-    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
-  }
-
-  .text-shadow-none {
-    text-shadow: none;
-  }
-}
-
-.synthwave {
-  z-index: -10;
-
-  .sun {
-    clip-path: url(#svgPath);
-  }
-
-  .tron-floor {
-    animation: 60s grid-rotate infinite linear;
-    opacity: 0.3;
-    transform: rotateX(55deg) rotate3d(0, 0, 1, 45deg);
-    width: 1028px;
-    height: 1028px;
-    background-size: 64px 64px;
-    background-image: linear-gradient(to right, magenta 4px, transparent 4px),
-      linear-gradient(to bottom, magenta 4px, transparent 4px);
-    @apply absolute inset-0 m-auto;
-  }
-}
-
-.phone {
-  height: 450px;
-}
-
-.hand-container {
-  @apply h-full;
-  @apply absolute inset-0;
-}
-
-.contact-fingers {
-  width: 100px;
-  transform: translate(-65px, -15px);
-  @apply absolute bottom-0 left-0 z-20;
-  @apply pointer-events-none;
-}
-
-.contact-hand {
-  width: 910px;
-  transform: translate(-40px, -130px);
-  @apply absolute top-0 left-0 z-0;
-}
-
-@keyframes grid-rotate {
-  0% {
-    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 45deg);
-  }
-
-  50% {
-    transform: scale(2) rotateX(75deg) rotate3d(0, 0, 1, 225deg);
-  }
-
-  100% {
-    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 405deg);
-  }
-}
-
-@keyframes about-bg-sway {
-  from {
-    background-color: forest;
-  }
-
-  to {
-    background-color: rebeccapurple;
-  }
+.nav-menu {
+  @apply border-teal-500 border-t-2 border-r-0 border-l-0 sm:border-r-2 sm:border-l-2;
+  @apply bg-teal-700 bg-opacity-80 sm:rounded-t-full shadow-lg md:text-2xl;
+  @apply mx-auto py-3 md:px-10 w-full md:w-auto;
 }

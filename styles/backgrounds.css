@@ -1,0 +1,155 @@
+/* Home Intro BG */
+.home-intro {
+  background-image: url("/images/pieter-montoulieu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: aqua;
+  animation: home-intro-fade 15s infinite alternate;
+  @apply transition-all duration-500;
+}
+
+@keyframes home-intro-fade {
+  from {
+    background-color: forest;
+  }
+
+  to {
+    background-color: rebeccapurple;
+  }
+}
+
+/* Synthwave Vector BG */
+.synthwave {
+  z-index: -10;
+
+  .sun {
+    clip-path: url(#svgPath);
+  }
+
+  .tron-floor {
+    animation: 60s grid-rotate infinite linear;
+    opacity: 0.3;
+    transform: rotateX(55deg) rotate3d(0, 0, 1, 45deg);
+    width: 1028px;
+    height: 1028px;
+    background-size: 64px 64px;
+    background-image: linear-gradient(to right, magenta 4px, transparent 4px),
+      linear-gradient(to bottom, magenta 4px, transparent 4px);
+    @apply absolute inset-0 m-auto;
+  }
+}
+
+@screen md {
+  .about {
+    background-position-y: 20%;
+  }
+}
+
+@screen xl {
+  .about {
+    background-position-y: 30%;
+  }
+}
+
+@keyframes grid-rotate {
+  0% {
+    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 45deg);
+  }
+
+  50% {
+    transform: scale(2) rotateX(75deg) rotate3d(0, 0, 1, 225deg);
+  }
+
+  100% {
+    transform: scale(2) rotateX(55deg) rotate3d(0, 0, 1, 405deg);
+  }
+}
+
+/* Jump to Lightspeed BG */
+.warp-side {
+  background: url("/images/bg-contact.jpg");
+  background-size: cover;
+}
+
+.warp-drive {
+  display: inline-block;
+  vertical-align: middle;
+  perspective: 5px;
+  perspective-origin: 50% 50%;
+  position: relative;
+  z-index: -1;
+}
+
+.warp-wrap {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  left: -500px;
+  top: -500px;
+  transform-style: preserve-3d;
+  animation: move 12s infinite linear;
+  animation-fill-mode: forwards;
+}
+
+.warp-wrap:nth-child(2) {
+  animation: move 12s infinite linear;
+  animation-delay: 6s;
+}
+
+.warp-side {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  animation: fade 12s infinite linear;
+  animation-delay: 0;
+}
+
+.warp-wrap:nth-child(2) .warp-side {
+  animation-delay: 6s;
+}
+
+.warp-right {
+  transform: rotateY(90deg) translateZ(500px);
+}
+
+.warp-left {
+  transform: rotateY(-90deg) translateZ(500px);
+}
+
+.warp-top {
+  transform: rotateX(90deg) translateZ(500px);
+}
+
+.warp-bottom {
+  transform: rotateX(-90deg) translateZ(500px);
+}
+
+.warp-back {
+  transform: rotateX(180deg) translateZ(500px);
+}
+
+@keyframes move {
+  0% {
+    transform: translateZ(-500px) rotate(0deg);
+  }
+  100% {
+    transform: translateZ(500px) rotate(0deg);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
