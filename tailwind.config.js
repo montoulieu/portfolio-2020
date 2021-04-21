@@ -1,10 +1,15 @@
 const colors = require('./node_modules/tailwindcss/colors');
 
 module.exports = {
-  purge: [
+  purge: {
+    options:{
+      whitelistPatterns: [/^bg-/, /^text-/]
+    },
+    content: [
     './pages/**/*.{js,jsx,ts,tsx}',
     './components/**/*.{js,jsx,ts,tsx}',
-  ],
+    ],
+  },
   theme: {
     extend: {
       colors: {
