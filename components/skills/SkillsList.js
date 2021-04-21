@@ -11,7 +11,7 @@ function SkillsList() {
               className={`text-${skill.class} flex items-center mb-2 md:mb-4`}
               key={skill.name}
             >
-              <span className="text-xl md:text-3xl mr-3 w-1/6 leading-none font-bold">{skill.name}</span>
+              <span className="skill-label">{skill.name}</span>
               <ul className="flex content-center">
                 {skill.subskills.map((subskill) => (
                   <li

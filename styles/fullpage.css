@@ -1,10 +1,15 @@
-#fp-nav {
+body #fp-nav {
   ul li {
-    a span {
-      background-color: #68d391;
+    a.active span {
+      @apply bg-teal-400;
     }
+
+    a span {
+      @apply bg-teal-900;
+    }
+
     .fp-tooltip {
-      color: #68d391;
+      @apply text-teal-400;
       font-family: sys-tt, sans-serif;
     }
   }
