@@ -1,5 +1,4 @@
 import { Fade } from 'react-slideshow-image';
-import Link from 'next/link';
 import ProjectPreview from './ProjectPreview';
 
 function ProjectSlider(props) {
@@ -35,6 +34,7 @@ function ProjectSlider(props) {
                             <img
                               src={image.sourceUrl}
                               className="rounded"
+                              alt={`${project.node.title} Gallery Screenshot`}
                             />
                             {/* <div className="image-container">
                             </div> */}
@@ -45,6 +45,7 @@ function ProjectSlider(props) {
                       <img
                         src={project.node.acf.gallery ? project.node.acf.gallery[0].sourceUrl : ''}
                         className="rounded-lg w-full mx-auto"
+                        alt={`${project.node.title} Gallery Screenshot`}
                       />
                     )}
                   </ProjectPreview>

@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import ReactFullpage from '@fullpage/react-fullpage';
 import BackgroundSynthwave from '../components/BackgroundSynthwave';
 import ProjectSlider from '../components/ProjectSlider';
