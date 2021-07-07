@@ -17,6 +17,7 @@ export default function SkillsProjects(props) {
         scrollingSpeed={500}
         navigation
         navigationTooltips={['Web', 'VR', 'Games']}
+        showActiveTooltip
         anchors={['web', 'vr', 'games']}
         sectionSelector={SECTION_SEL}
         licenseKey={process.env.FULLPAGE_LICENSE_KEY}

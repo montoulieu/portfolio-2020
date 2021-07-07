@@ -41,17 +41,25 @@ function HomeIntro() {
             </svg>
             working on:
           </h2>
-          <ul className="text-xl md:text-3xl italic mb-10">
-            <li className="text-blue-300 mb-1">
-              - Single page apps with
-              <strong> Next.js</strong>
+          <ul className="text-xl md:text-3xl italic mb-7">
+            <li className="text-teal-400 mb-1">
+              - Web apps with
+              <strong> Next.js and JAMstack</strong>
             </li>
-            <li className="text-purple-300 mb-1">
-              - Games and VR with
-              <strong> Unity 3D</strong>
+            <li className="text-purple-500 mb-1">
+              - Games and XR experiences with
+              <strong> Unity </strong>
             </li>
-            <li className="text-fuchsia-300">- Crytocurrency, Blockchain and NFTs</li>
+            <li className="text-blue-500">- Crypto, The Metaverse, and NFTs</li>
           </ul>
+          <a
+            href="https://api.montoulieu.dev/portfolio/wp-content/uploads/sites/5/2021/04/Pieter-Montoulieu-Resume.pdf"
+            className="btn-teal inline-block mb-5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Resume
+          </a>
           <p className="text-md">Built with Next.js, Tailwind, and Vercel.</p>
         </div>
       </div>

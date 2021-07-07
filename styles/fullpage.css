@@ -1,16 +1,30 @@
 body #fp-nav {
   ul li {
-    a.active span {
-      @apply bg-teal-400;
-    }
+    @apply flex w-auto;
 
-    a span {
-      @apply bg-teal-900;
+    a {
+      span {
+        @apply bg-teal-900;
+      }
+
+      &.active span {
+        @apply bg-teal-400;
+      }
+      &:not(.active) + .fp-tooltip {
+        @apply opacity-50 w-auto;
+
+        font-size: 0.6rem;
+        top: -1px;
+      }
     }
 
     .fp-tooltip {
-      @apply text-teal-400;
+      @apply text-teal-400 transition-all duration-200 hidden;
       font-family: sys-tt, sans-serif;
+      top: -5px;
+      @screen sm {
+        @apply block;
+      }
     }
   }
 }

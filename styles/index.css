@@ -30,3 +30,7 @@ body {
   min-width: 90px;
   @apply text-xl sm:text-3xl mr-3 leading-none font-bold;
 }
+
+.btn-teal {
+  @apply bg-teal-600 p-2 px-5 mr-auto rounded-full text-teal-100 font-bold shadow-lg italic hover:bg-teal-500 transition-all duration-200;
+}

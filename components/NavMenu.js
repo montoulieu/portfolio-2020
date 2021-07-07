@@ -10,17 +10,16 @@ export default function NavMenu() {
       link: '/',
     },
     {
+      label: 'Skills',
+      link: '/skills',
+    },
+    {
       label: 'Projects',
       link: '/projects',
     },
     {
       label: 'Contact',
       link: '/contact',
-    },
-    {
-      label: 'Resume',
-      link: 'https://api.montoulieu.dev/portfolio/wp-content/uploads/sites/5/2021/04/Pieter-Montoulieu-Resume.pdf',
-      target: '__blank',
     },
   ];
 
@@ -35,7 +34,7 @@ export default function NavMenu() {
             <Link href={item.link}>
               <a
                 target={item.target ? '__blank' : ''}
-                className={`${router.pathname === item.link ? 'bg-teal-500 text-blue-100 shadow-md ' : ''} py-1 px-3 md:px-6 rounded-full hover:bg-teal-500 hover:text-blue-100 hover:shadow-md transition-all duration-500 outline-none`}
+                className={`${router.pathname === item.link ? 'bg-teal-500 text-teal-100 shadow-md ' : ''} py-1 px-3 md:px-6 rounded-full hover:bg-teal-500 hover:text-teal-100 hover:shadow-md transition-all duration-500 outline-none`}
               >
                 {item.label}
               </a>
