@@ -1,7 +1,7 @@
 export default function BackgroundSynthwave() {
   return (
-    <div className="synthwave absolute inset-0 opacity-20 overflow-hidden">
-      <div className="container mx-auto">
+    <div className="synthwave absolute inset-0 opacity-20 overflow-hidden ">
+      <div className="container mx-auto hidden sm:block">
         <div className="sun w-96 h-96 rounded-full bg-fuchsia-500 mt-52 ml-10 opacity-70 transform scale-150" />
       </div>
       <svg>

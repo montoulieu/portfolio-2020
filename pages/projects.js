@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import ReactFullpage from '@fullpage/react-fullpage';
 import BackgroundSynthwave from '../components/BackgroundSynthwave';
 import ProjectSlider from '../components/ProjectSlider';
@@ -17,6 +18,7 @@ export default function SkillsProjects(props) {
         scrollingSpeed={500}
         navigation
         navigationTooltips={['Web', 'VR', 'Games']}
+        showActiveTooltip
         anchors={['web', 'vr', 'games']}
         sectionSelector={SECTION_SEL}
         licenseKey={process.env.FULLPAGE_LICENSE_KEY}
