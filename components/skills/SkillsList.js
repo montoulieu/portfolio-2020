@@ -3,7 +3,7 @@ import skills from '../../json/skills.json';
 
 function SkillsList() {
   return (
-    <div className="flex justify-start md:justify-center flex-col">
+    <div className="flex justify-start md:justify-center flex-col mr-auto">
       <div className="xl:w-4/5 xl:mx-auto">
         <ul className="">
           {skills.map((skill) => (

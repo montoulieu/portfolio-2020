@@ -3,7 +3,8 @@
     "name": "React",
     "subskills": [
       "Next.js",
-      "Gatsby"
+      "Gatsby",
+      "Expo"
     ],
     "class": "blue-300"
   },
@@ -42,18 +43,20 @@
     "class": "teal-300"
   },
   {
-    "name": "Games",
+    "name": "Unity",
     "subskills": [
-      "Unity 3D",
+      "C#",
+      "XR/AR",
+      "UI",
       "Blender"
     ],
     "class": "red-300"
   },
   {
-    "name": "VR/AR",
+    "name": "XR",
     "subskills": [
       "SteamVR",
-      "ARKit"
+      "Oculus"
     ],
     "class": "indigo-300"
   }
