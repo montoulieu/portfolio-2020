@@ -4,10 +4,7 @@ import BackgroundSynthwave from '../components/BackgroundSynthwave';
 import ProjectSlider from '../components/ProjectSlider';
 import { getAllPortfolio } from '../lib/api';
 
-export default function SkillsProjects(props) {
-  const SEL = 'custom-section';
-  const SECTION_SEL = `.${SEL}`;
-
+export default function Projects(props) {
   const webPortfolioItems = props.portfolio.filter((portfolio) => portfolio.node.portfolioTypes.edges[0].node.name === 'Web');
   const vrPortfolioItems = props.portfolio.filter((portfolio) => portfolio.node.portfolioTypes.edges[0].node.name === 'VR');
   const gamePortfolioItems = props.portfolio.filter((portfolio) => portfolio.node.portfolioTypes.edges[0].node.name === 'Games');
@@ -20,7 +17,7 @@ export default function SkillsProjects(props) {
         navigationTooltips={['Web', 'VR', 'Games']}
         showActiveTooltip
         anchors={['web', 'vr', 'games']}
-        sectionSelector={SECTION_SEL}
+        sectionSelector=".custom-section"
         licenseKey={process.env.FULLPAGE_LICENSE_KEY}
         render={() => (
           <ReactFullpage.Wrapper>
