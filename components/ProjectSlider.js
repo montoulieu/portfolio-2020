@@ -5,9 +5,9 @@ function ProjectSlider(props) {
   const { portfolio } = props;
 
   const fadeProperties = {
-    duration: 7500,
+    duration: 3000,
     transitionDuration: 500,
-    indicators: false,
+    indicators: true,
     arrows: false,
   };
 

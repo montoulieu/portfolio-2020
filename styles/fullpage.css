@@ -42,11 +42,13 @@ body #fp-nav {
   &.fp-prev {
     border-color: transparent rgba(94, 234, 212) transparent transparent !important;
     left: 25%;
+    border-width: 20px 30px 20px;
   }
 
   &.fp-next {
     border-color: transparent transparent transparent rgba(94, 234, 212) !important;
     right: 25%;
+    border-width: 20px 30px 20px;
   }
 }
 

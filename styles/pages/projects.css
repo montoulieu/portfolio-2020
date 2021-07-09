@@ -6,4 +6,28 @@
     max-width: 90vw;
     @apply mx-auto;
   }
+
+  .react-slideshow-container + ul.indicators {
+    @apply absolute pb-8 inset-x-0 bottom-0 z-20;
+
+    li {
+      width: 10px;
+      height: 10px;
+      @apply py-0 px-2;
+    }
+
+    .each-slideshow-indicator {
+      &::before {
+        width: 10px;
+        height: 10px;
+        @apply border border-teal-400 bg-transparent transition-all duration-200;
+      }
+
+      &.active {
+        &::before {
+          @apply bg-teal-400;
+        }
+      }
+    }
+  }
 }
