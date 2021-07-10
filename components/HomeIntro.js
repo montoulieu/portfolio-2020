@@ -53,7 +53,7 @@ function HomeIntro() {
             <li className="text-blue-500">- Crypto, The Metaverse, and NFTs</li>
           </ul>
           <a
-            href="https://api.montoulieu.dev/portfolio/wp-content/uploads/sites/5/2021/04/Pieter-Montoulieu-Resume.pdf"
+            href="/pdf/Pieter Montoulieu - Resume.pdf"
             className="btn-teal inline-block mb-5"
             target="_blank"
             rel="noreferrer"
