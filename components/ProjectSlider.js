@@ -51,7 +51,7 @@ function ProjectSlider(props) {
                   </ProjectPreview>
                 </div>
 
-                <div className="lg:w-1/3 lg:mx-auto flex justify-center flex-col relative z-30 p-5 pr-10">
+                <div className="lg:w-1/2 lg:mx-auto flex justify-center flex-col relative z-30 p-5 pr-10">
                   <h2 className="text-teal-300 text-2xl sm:text-4xl md:text-5xl font-bold mb-3">{ project.node.title }</h2>
                   <p className="text-md sm:text-xl sm:mb-3 font-bold italic text-fuchsia-200">
                     Built with
@@ -63,7 +63,7 @@ function ProjectSlider(props) {
                     { new Date(project.node.date).getFullYear() }
                   </p>
                   <div
-                    className="mb-3 text-blue-200"
+                    className="mb-3 text-blue-200 lg:pr-10"
                     dangerouslySetInnerHTML={{ __html: project.node.acf.description }}
                   />
 
