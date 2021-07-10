@@ -20,9 +20,9 @@ function ProjectSlider(props) {
             key={project.name}
           >
             {/* <div className="bg-overlay bg-gray-900 absolute inset-0 z-20 w-full h-full" style={{backgroundImage: `url(${project.images[0]})` }}></div> */}
-            <div className="slide-wrapper columns-2 mx-auto h-full sm:h-auto bg-black sm:bg-transparent bg-opacity-20">
-              <div className="lg:flex ">
-                <div className="lg:w-1/2 mx-auto p-5 sm:px-16 md:px-32 lg:pl-5 lg:pr-10 transition-all duration-200">
+            <div className="slide-wrapper mx-auto h-full sm:h-auto bg-black sm:bg-transparent bg-opacity-20">
+              <div className="lg:flex">
+                <div className="lg:w-1/2 p-5 sm:px-16 md:px-32 lg:pl-5 lg:pr-10">
                   <ProjectPreview>
                     {project.node.acf.gallery?.length > 1 ? (
                       <Fade {...fadeProperties}>
@@ -33,7 +33,7 @@ function ProjectSlider(props) {
                           >
                             <img
                               src={image.sourceUrl}
-                              className="rounded"
+                              className="project-image rounded-lg"
                               alt={`${project.node.title} Gallery Screenshot`}
                             />
                             {/* <div className="image-container">
@@ -44,7 +44,7 @@ function ProjectSlider(props) {
                     ) : (
                       <img
                         src={project.node.acf.gallery ? project.node.acf.gallery[0].sourceUrl : ''}
-                        className="rounded-lg w-full mx-auto"
+                        className="project-image rounded-lg mx-auto"
                         alt={`${project.node.title} Gallery Screenshot`}
                       />
                     )}

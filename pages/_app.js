@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { DefaultSeo } from 'next-seo';
+import Head from 'next/head';
 import NavMenu from '../components/NavMenu';
 import usePanelBear from '../hooks/usePanelbear';
 
@@ -13,6 +14,13 @@ export default function MyApp({
 
   return (
     <div className="h-full">
+      <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon.png"
+        />
+      </Head>
       <DefaultSeo
         title="Pieter Montoulieu"
         description="Full stack engineer, game developer, and audio engineer in Denver, Colorado."

@@ -5,6 +5,14 @@
   .react-slideshow-container {
     max-width: 90vw;
     @apply mx-auto;
+
+    .each-fade {
+      @apply flex justify-center;
+    }
+  }
+
+  .project-image {
+    max-height: 420px;
   }
 
   .react-slideshow-container + ul.indicators {
