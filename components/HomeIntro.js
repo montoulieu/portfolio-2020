@@ -1,8 +1,9 @@
 import formatDistanceStrict from 'date-fns/formatDistanceStrict';
 
 function HomeIntro() {
-  const birthday = '03/10/1989';
-  const movedToDenver = '04/8/2013';
+  const birthday = new Date('10/03/1989');
+  const today = new Date();
+  const movedToDenver = new Date('8/04/2013');
 
   return (
     <div className="home-intro custom-section flex flex-col h-full">
@@ -14,14 +15,14 @@ function HomeIntro() {
             Born
             {' '}
             {' '}
-            {formatDistanceStrict(new Date(birthday), new Date(), { addSuffix: 'ago' })}
+            {formatDistanceStrict(birthday, today, { unit: 'year', addSuffix: 'ago' })}
             {' '}
             in Miami, FL and
             <br />
             {' '}
             developing in Denver, CO for
             {' '}
-            {formatDistanceStrict(new Date(movedToDenver), new Date())}
+            {formatDistanceStrict(movedToDenver, today)}
             .
           </h2>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
@@ -47,10 +48,10 @@ function HomeIntro() {
               <strong> Next.js and JAMstack</strong>
             </li>
             <li className="text-purple-500 mb-1">
-              - Games and XR experiences with
+              - XR apps and games with
               <strong> Unity </strong>
             </li>
-            <li className="text-blue-500">- Crypto, The Metaverse, and NFTs</li>
+            <li className="text-blue-500">- Crypto, Defi, web3, and the metaverse</li>
           </ul>
           <a
             href="/pdf/Pieter Montoulieu - Resume.pdf"
