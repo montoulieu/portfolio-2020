@@ -20,7 +20,7 @@ function HomeIntro() {
             in Miami, FL and
             <br />
             {' '}
-            developing in Denver, CO for
+            living in Denver, CO for
             {' '}
             {formatDistanceStrict(movedToDenver, today)}
             .

@@ -7,9 +7,9 @@ function SkillsText() {
     <div className="lg:w-3/5 xl:w-2/5 text-blue-200 text-left lg:m-auto">
       <h1 className="text-4xl md:text-6xl font-semibold text-teal-300 mb-4">Skills</h1>
       <div className="text-md md:text-2xl xl:text-3xl font-light tracking-wide sm:mb-6 pr-3 leading-5 sm:leading-normal">
-        <p className="mb-4">From hacking Gameboy ROMs and web sites in the late 90s, to building VR experiences and enterprise apps for the modern web.</p>
+        <p className="mb-4">From hacking Gameboy ROMs and web sites in the late 90s, to building XR experiences and enterprise apps for the modern web.</p>
         <p className="mb-4">
-          I&quot;ve spent
+          I&#39;ve spent
           {' '}
           {formatDistanceStrict(new Date(devStartDate), new Date())}
           {' '}
