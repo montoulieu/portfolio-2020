@@ -51,7 +51,7 @@ function HomeIntro() {
               - XR apps and games with
               <strong> Unity </strong>
             </li>
-            <li className="text-blue-500">- Crypto, Defi, web3, and the metaverse</li>
+            <li className="text-blue-500">- Crypto, DeFi, web3, and the metaverse</li>
           </ul>
           <a
             href="/pdf/Pieter Montoulieu - Resume.pdf"
