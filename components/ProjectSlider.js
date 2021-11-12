@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Fade } from 'react-slideshow-image';
 import ProjectPreview from './ProjectPreview';
 
